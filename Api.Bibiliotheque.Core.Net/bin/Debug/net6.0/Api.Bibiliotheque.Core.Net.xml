@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api.Bibiliotheque.Core.Net</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Bibiliotheque.Core.Net.Configuration.ServicesConfiguration">
+            <summary>
+            tous nos extensions de service de configuration pour plus de clarté
+            </summary>
+        </member>
+        <member name="M:Api.Bibiliotheque.Core.Net.Controllers.BookController.Get">
+            <summary>
+            Permet d'obtenir la liste des livres de la bibliothèques
+            </summary>
+            <remarks>
+            Example de requête :
+            POST /monget/mongetge {avec in id = "id, et une valeur = "valeur", ...}
+            </remarks>
+            <response code="400">Erreur pour trouver la requete</response>
+            <response code="200">Une liste de books</response>
+            <response code="401">Authentification necessaire</response>
+            <returns>Return a list of books</returns>
+        </member>
+    </members>
+</doc>
