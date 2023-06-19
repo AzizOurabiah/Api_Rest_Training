@@ -35,3 +35,13 @@ C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\ob
 C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\obj\Debug\net6.0\Api.Bibiliotheque.Core.Net.pdb
 C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\obj\Debug\net6.0\Api.Bibiliotheque.Core.Net.genruntimeconfig.cache
 C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\obj\Debug\net6.0\ref\Api.Bibiliotheque.Core.Net.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\bin\Debug\net6.0\Serilog.Sinks.File.dll

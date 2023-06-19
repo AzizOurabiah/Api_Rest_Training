@@ -7,7 +7,20 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Étape : 3 On crée le fichier de configuration //Toutes les configuration vont être cherché à partir de fichier appsettings.json
+var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+
+
+//Étape : 2
+//Configuration du logger / Création du logger
+Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
+
+
+//Étape : 1
+//Ajout l'utilisation de Serilog
 builder.Host.UseSerilog();
+
+
 
 // Add services to the container.
 builder.Services.AddDbContext<BibliothequeContext>(opt => opt.UseInMemoryDatabase("MyDatabase"));
