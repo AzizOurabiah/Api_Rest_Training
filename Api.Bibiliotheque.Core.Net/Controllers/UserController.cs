@@ -23,7 +23,14 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         public async Task<ActionResult<List<Models.UserModel>>> Get(CancellationToken cancel)
         {
             _logger.LogWarning("Début d'une logn attente !");
-             await Task.Delay(10000, cancel);
+            // await Task.Delay(10000, cancel);
+            //Simuler une long attente
+            for(int i = 0; i < 10; i++)
+            {
+                _logger.LogWarning($"Je passe pour le {i} is not cancellation.");
+                cancel.ThrowIfCancellationRequested();
+                Thread.Sleep(10000);
+            }
             var result =  _service.GetUsers();
             _logger.LogWarning("Fin d'une log attente -Found  users");
             return Ok(result);
