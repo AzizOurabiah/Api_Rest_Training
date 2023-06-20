@@ -11,16 +11,21 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
     {
 
         private readonly IUserService _service;
+        private readonly ILogger<UserController> _logger;
 
-        public UserController(IUserService service)
+        public UserController(IUserService service, ILogger<UserController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Models.UserModel>>> Get()
         {
-            var result = await _service.GetUsers();
+            _logger.LogWarning("Début d'une logn attente !");
+             await Task.Delay(10000);
+            var result =  _service.GetUsers();
+            _logger.LogWarning("Fin d'une log attente -Found  users");
             return Ok(result);
         }
 
