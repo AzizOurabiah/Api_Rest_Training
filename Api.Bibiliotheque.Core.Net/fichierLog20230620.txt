@@ -375,3 +375,574 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
 2023-06-20 10:14:13.931 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 10037.7919ms
 2023-06-20 10:14:13.951 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
 2023-06-20 10:14:13.954 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 10092.1117ms
+2023-06-20 10:55:25.655 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-20 10:55:25.755 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-20 10:55:25.760 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-20 10:55:25.762 -04:00 [INF] Hosting environment: Development
+2023-06-20 10:55:25.764 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-20 10:55:27.785 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-20 10:55:29.177 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 1390.4486ms
+2023-06-20 10:55:29.210 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-20 10:55:29.210 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-20 10:55:29.274 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12022 application/javascript;+charset=utf-8 63.4719ms
+2023-06-20 10:55:29.347 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.1442ms
+2023-06-20 10:55:29.573 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-20 10:55:29.904 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 330.4488ms
+2023-06-20 10:55:50.898 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-20 10:55:50.899 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-20 10:55:50.902 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12022 application/javascript;+charset=utf-8 3.5656ms
+2023-06-20 10:55:50.947 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.8535ms
+2023-06-20 10:55:51.085 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-20 10:55:51.104 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 25.1919ms
+2023-06-20 10:56:00.556 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:00.573 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:00.669 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:01.120 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:05.059 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:05.221 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:05.224 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:05.242 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:05.244 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 4563.1644ms
+2023-06-20 10:56:05.257 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:05.269 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:05.664 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:05.665 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 437.6165ms
+2023-06-20 10:56:05.667 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:05.669 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:05.671 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:05.673 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:05.684 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:06.077 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 5520.9912ms
+2023-06-20 10:56:06.077 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 1017.5626ms
+2023-06-20 10:56:06.686 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:06.687 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 1008.2299ms
+2023-06-20 10:56:06.688 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:06.691 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:06.693 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:06.696 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:06.700 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:06.739 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 1075.0981ms
+2023-06-20 10:56:07.379 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:07.420 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 719.6107ms
+2023-06-20 10:56:07.422 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:07.425 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:07.427 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:07.433 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:07.437 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:07.509 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 823.6668ms
+2023-06-20 10:56:18.085 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-20 10:56:18.428 -04:00 [WRN] Fin d'une log attente -Found  users
+2023-06-20 10:56:18.442 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-20 10:56:18.495 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 11057.4642ms
+2023-06-20 10:56:18.500 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:18.565 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 11185.8083ms
+2023-06-20 10:56:26.256 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:26.266 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:26.269 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:26.272 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:26.897 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:26.936 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 663.8873ms
+2023-06-20 10:56:26.937 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:26.939 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:26.941 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:26.951 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:26.954 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:26.998 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 742.1502ms
+2023-06-20 10:56:27.563 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:27.594 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 639.8341ms
+2023-06-20 10:56:27.594 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:27.598 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:27.600 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:27.603 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:27.607 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:27.651 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 753.3636ms
+2023-06-20 10:56:28.204 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:56:28.235 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:28.235 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 627.67ms
+2023-06-20 10:56:28.237 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:56:28.240 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:28.243 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:56:28.247 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:56:28.289 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 725.9108ms
+2023-06-20 10:56:38.252 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-20 10:56:38.262 -04:00 [WRN] Fin d'une log attente -Found  users
+2023-06-20 10:56:38.264 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-20 10:56:38.273 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 10030.5648ms
+2023-06-20 10:56:38.279 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:56:38.284 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 10080.1459ms
+2023-06-20 10:57:18.905 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:18.912 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:18.914 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:18.920 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:20.246 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:20.283 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 1363.033ms
+2023-06-20 10:57:20.283 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:20.286 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:20.290 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:20.294 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:20.296 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:20.337 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 1432.7810ms
+2023-06-20 10:57:30.374 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-20 10:57:30.382 -04:00 [WRN] Fin d'une log attente -Found  users
+2023-06-20 10:57:30.384 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-20 10:57:30.391 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 10094.3129ms
+2023-06-20 10:57:30.394 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:30.399 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 10153.3636ms
+2023-06-20 10:57:39.530 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:39.537 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:39.539 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:39.545 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:40.679 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:40.694 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 1150.22ms
+2023-06-20 10:57:40.696 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:40.700 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:40.701 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:40.705 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:40.710 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:40.756 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 1226.3989ms
+2023-06-20 10:57:41.444 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:41.482 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 771.736ms
+2023-06-20 10:57:41.482 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:41.484 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:41.486 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:41.491 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:41.494 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:41.535 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 855.6252ms
+2023-06-20 10:57:42.044 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:42.059 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 564.7395ms
+2023-06-20 10:57:42.059 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.062 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.066 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:42.069 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:42.071 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:42.109 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 665.5239ms
+2023-06-20 10:57:42.534 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:42.535 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 463.4084ms
+2023-06-20 10:57:42.537 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.539 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.541 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:42.543 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:42.549 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:42.591 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 546.9600ms
+2023-06-20 10:57:42.973 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:42.975 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 425.5282ms
+2023-06-20 10:57:42.976 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.978 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:42.980 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:42.983 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:42.989 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:43.037 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 503.5908ms
+2023-06-20 10:57:43.391 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:43.408 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 418.4361ms
+2023-06-20 10:57:43.409 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:43.412 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:43.415 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:43.420 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:43.427 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:43.463 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 489.9516ms
+2023-06-20 10:57:43.759 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:57:43.779 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 351.9965ms
+2023-06-20 10:57:43.781 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:43.783 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:43.785 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:57:43.789 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:57:43.792 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:57:43.840 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 448.0922ms
+2023-06-20 10:57:53.818 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-20 10:57:53.836 -04:00 [WRN] Fin d'une log attente -Found  users
+2023-06-20 10:57:53.841 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-20 10:57:53.862 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 10070.4617ms
+2023-06-20 10:57:53.874 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:57:53.885 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 10125.7900ms
+2023-06-20 10:59:44.629 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:59:47.200 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:59:50.836 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 10:59:59.571 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:59:59.576 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:59:59.579 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:59:59.591 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:59:59.622 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:59:59.609 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 10:59:59.645 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:59:59.655 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:59:59.665 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 10:59:59.821 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 176.7462ms
+2023-06-20 10:59:59.860 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 194.8234ms
+2023-06-20 10:59:59.861 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:59:59.863 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 10:59:59.866 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:59:59.868 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 10:59:59.907 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 15278.3096ms
+2023-06-20 10:59:59.940 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 12740.0994ms
+2023-06-20 11:00:04.051 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 11:00:04.054 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 4399.6244ms
+2023-06-20 11:00:04.057 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:04.059 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:04.061 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 11:00:04.063 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 11:00:04.069 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 11:00:04.107 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 13270.6225ms
+2023-06-20 11:00:05.319 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 11:00:05.320 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 1250.7406ms
+2023-06-20 11:00:05.322 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:05.324 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:05.325 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 11:00:05.328 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 11:00:05.334 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 11:00:05.377 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 1325.9548ms
+2023-06-20 11:00:07.694 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-20 11:00:07.695 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 2361.4116ms
+2023-06-20 11:00:07.697 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:07.701 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:07.703 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-20 11:00:07.708 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Api.Bibiliotheque.Core.Net.Controllers.UserController.Get(CancellationToken cancel) in C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\Controllers\UserController.cs:line 26
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-20 11:00:07.713 -04:00 [WRN] Début d'une logn attente !
+2023-06-20 11:00:07.754 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 500 - text/html;+charset=utf-8 2435.1638ms
+2023-06-20 11:00:17.752 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-20 11:00:17.774 -04:00 [WRN] Fin d'une log attente -Found  users
+2023-06-20 11:00:17.776 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-06-20 11:00:17.783 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 10070.0231ms
+2023-06-20 11:00:17.786 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-20 11:00:17.792 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 10097.8379ms

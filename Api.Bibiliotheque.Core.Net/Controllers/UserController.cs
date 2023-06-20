@@ -20,10 +20,10 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Models.UserModel>>> Get()
+        public async Task<ActionResult<List<Models.UserModel>>> Get(CancellationToken cancel)
         {
             _logger.LogWarning("Début d'une logn attente !");
-             await Task.Delay(10000);
+             await Task.Delay(10000, cancel);
             var result =  _service.GetUsers();
             _logger.LogWarning("Fin d'une log attente -Found  users");
             return Ok(result);
