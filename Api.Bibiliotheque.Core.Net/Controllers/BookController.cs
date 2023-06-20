@@ -14,12 +14,13 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-
         private readonly IBookService _service;
+        private readonly ILogger<BookController> _logger;
 
-        public BookController(IBookService service)
+        public BookController(IBookService service, ILogger<BookController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         /// <summary>
@@ -39,7 +40,9 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         [HttpGet("monget/mongetget")]        
         public async Task<ActionResult<List<Models.BookModel>>> Get()
         {
+            _logger.LogInformation("Début de logger !");
             var result = await _service.GetBooks();
+            _logger.LogError("Log error -fin de logger- !");
             return Ok(result);
         }
 
