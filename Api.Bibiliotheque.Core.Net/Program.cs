@@ -32,7 +32,7 @@ builder.Services.AddAuthentificationService();
 builder.Services.AddTransient<IBookService, BookService>();
 builder.Services.AddTransient<IUserService, UserService>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllersService();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 

@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using System.Reflection;
+using System.Security.AccessControl;
 
 namespace Api.Bibiliotheque.Core.Net.Configuration
 {
@@ -60,6 +64,16 @@ namespace Api.Bibiliotheque.Core.Net.Configuration
                 options.Authority = "https://dev-ngm40o1ql0uwhp0y.us";//On va déligué l'authentification à l'API qu'on a crée 
                 options.Audience = "https://demonstrationnet6/";//On va déligué l'audience à l'API qu'on a crée
 
+            });
+            return service;
+        }
+        //Méthode qui permet d'appliquer filtre sur tous les controller on va l'appeler dans le fichier programme
+        public static IServiceCollection AddControllersService(this IServiceCollection service)
+        {
+            service.AddControllers(options =>
+            {
+                var policies = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                options.Filters.Add(new AuthorizeFilter(policies));
             });
             return service;
         }
