@@ -25,6 +25,9 @@ builder.Host.UseSerilog();
 // Add services to the container.
 builder.Services.AddDbContext<BibliothequeContext>(opt => opt.UseInMemoryDatabase("MyDatabase"));
 
+//Ajout service d'authentification qu'on a crée dans le fichier ServiceConfiguration
+builder.Services.AddAuthentificationService();
+
 //Dependency injection de nos services métiers
 builder.Services.AddTransient<IBookService, BookService>();
 builder.Services.AddTransient<IUserService, UserService>();
@@ -48,6 +51,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//Utilisation de service d'authentification
+//il faut qu'il soit avant UseAuthorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

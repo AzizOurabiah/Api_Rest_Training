@@ -34,7 +34,7 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         /// </remarks>
         /// <response code="400">Erreur pour trouver la requete</response>
         /// <response code="200">Une liste de books</response>
-        /// <response code="401">Authentification dfewfwe fdewdfwefdew necessaire</response>
+        /// <response code="401">Authentification necessaire</response>
         /// <returns>Return a list of books</returns>
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

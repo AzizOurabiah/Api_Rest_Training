@@ -53,8 +53,13 @@ namespace Api.Bibiliotheque.Core.Net.Configuration
 
             }).AddJwtBearer(options =>
             {
-                options.Authority = "";
-                options.Audience = "";
+                //Connecté notre api qu'on a crée dans le sit auth0 avec le service d'auhtentification
+                //Veut dire l'API qu'on a crée c'est elle qui a controller les autorisations
+                //Sit de l'API https://manage.auth0.com/dashboard/us/dev-ngm40o1ql0uwhp0y/apis
+
+                options.Authority = "https://dev-ngm40o1ql0uwhp0y.us";//On va déligué l'authentification à l'API qu'on a crée 
+                options.Audience = "https://demonstrationnet6/";//On va déligué l'audience à l'API qu'on a crée
+
             });
             return service;
         }
