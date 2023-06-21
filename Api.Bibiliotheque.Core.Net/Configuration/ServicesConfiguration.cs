@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Reflection;
 
 namespace Api.Bibiliotheque.Core.Net.Configuration
 {
@@ -40,6 +41,21 @@ namespace Api.Bibiliotheque.Core.Net.Configuration
 
             
 
+            return service;
+        }
+
+        public static IServiceCollection AddAuthentificationService(this IServiceCollection service)
+        {
+            service.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(options =>
+            {
+                options.Authority = "";
+                options.Audience = "";
+            });
             return service;
         }
     }

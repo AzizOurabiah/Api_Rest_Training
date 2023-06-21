@@ -1,5 +1,6 @@
 ﻿using Api.Bibiliotheque.Core.Net.Interfaces;
 using Api.Bibiliotheque.Core.Net.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,11 +13,12 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
     [Route("api/maroute/[controller]")]
     [Produces("application/json")]
     [ApiController]
+    [Authorize]
     public class BookController : ControllerBase
     {
         private readonly IBookService _service;
         private readonly ILogger<BookController> _logger;
-
+        
         public BookController(IBookService service, ILogger<BookController> logger)
         {
             _service = service;
@@ -32,7 +34,7 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         /// </remarks>
         /// <response code="400">Erreur pour trouver la requete</response>
         /// <response code="200">Une liste de books</response>
-        /// <response code="401">Authentification necessaire</response>
+        /// <response code="401">Authentification dfewfwe fdewdfwefdew necessaire</response>
         /// <returns>Return a list of books</returns>
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

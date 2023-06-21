@@ -1,5 +1,6 @@
 ﻿using Api.Bibiliotheque.Core.Net.Interfaces;
 using Api.Bibiliotheque.Core.Net.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +8,7 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class UserController : ControllerBase
     {
 
