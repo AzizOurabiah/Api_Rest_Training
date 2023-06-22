@@ -26,19 +26,19 @@ builder.Host.UseSerilog();
 builder.Services.AddDbContext<BibliothequeContext>(opt => opt.UseInMemoryDatabase("MyDatabase"));
 
 //Ajout service d'authentification qu'on a crée dans le fichier ServiceConfiguration
-builder.Services.AddAuthentificationService();
+//builder.Services.AddAuthentificationService();
 
 //Dependency injection de nos services métiers
 builder.Services.AddTransient<IBookService, BookService>();
 builder.Services.AddTransient<IUserService, UserService>();
 
-builder.Services.AddControllersService();
+builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGenService();
 
-builder.Services.AddAuthentificationService();
+//builder.Services.AddAuthentificationService();
 
 var app = builder.Build();
 
@@ -53,7 +53,7 @@ app.UseHttpsRedirection();
 
 //Utilisation de service d'authentification
 //il faut qu'il soit avant UseAuthorization
-app.UseAuthentication();
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

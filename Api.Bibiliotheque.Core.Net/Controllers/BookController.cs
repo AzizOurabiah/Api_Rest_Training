@@ -13,7 +13,7 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
     [Route("api/maroute/[controller]")]
     [Produces("application/json")]
     [ApiController]
-    [Authorize]
+  
     public class BookController : ControllerBase
     {
         private readonly IBookService _service;

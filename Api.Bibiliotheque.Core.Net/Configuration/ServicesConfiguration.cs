@@ -48,34 +48,34 @@ namespace Api.Bibiliotheque.Core.Net.Configuration
             return service;
         }
 
-        public static IServiceCollection AddAuthentificationService(this IServiceCollection service)
-        {
-            service.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        //public static IServiceCollection AddAuthentificationService(this IServiceCollection service)
+        //{
+        //    service.AddAuthentication(options =>
+        //    {
+        //        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        //        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-            }).AddJwtBearer(options =>
-            {
-                //Connecté notre api qu'on a crée dans le sit auth0 avec le service d'auhtentification
-                //Veut dire l'API qu'on a crée c'est elle qui a controller les autorisations
-                //Sit de l'API https://manage.auth0.com/dashboard/us/dev-ngm40o1ql0uwhp0y/apis
+        //    }).AddJwtBearer(options =>
+        //    {
+        //        //Connecté notre api qu'on a crée dans le sit auth0 avec le service d'auhtentification
+        //        //Veut dire l'API qu'on a crée c'est elle qui a controller les autorisations
+        //        //Sit de l'API https://manage.auth0.com/dashboard/us/dev-ngm40o1ql0uwhp0y/apis
 
-                options.Authority = "https://dev-ngm40o1ql0uwhp0y.us";//On va déligué l'authentification à l'API qu'on a crée 
-                options.Audience = "https://demonstrationnet6/";//On va déligué l'audience à l'API qu'on a crée
+        //        options.Authority = "https://dev-ngm40o1ql0uwhp0y.us";//On va déligué l'authentification à l'API qu'on a crée 
+        //        options.Audience = "https://demonstrationnet6/";//On va déligué l'audience à l'API qu'on a crée
 
-            });
-            return service;
-        }
+        //    });
+        //    return service;
+        //}
         //Méthode qui permet d'appliquer filtre sur tous les controller on va l'appeler dans le fichier programme
-        public static IServiceCollection AddControllersService(this IServiceCollection service)
-        {
-            service.AddControllers(options =>
-            {
-                var policies = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-                options.Filters.Add(new AuthorizeFilter(policies));
-            });
-            return service;
-        }
+        //public static IServiceCollection AddControllersService(this IServiceCollection service)
+        //{
+        //    service.AddControllers(options =>
+        //    {
+        //        var policies = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+        //        options.Filters.Add(new AuthorizeFilter(policies));
+        //    });
+        //    return service;
+        //}
     }
 }

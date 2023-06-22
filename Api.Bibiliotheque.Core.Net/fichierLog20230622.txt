@@ -1,0 +1,250 @@
+2023-06-22 08:59:27.671 -04:00 [INF] User profile is available. Using 'C:\Users\Aziz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-22 08:59:29.685 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 08:59:29.689 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 08:59:29.702 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 08:59:29.703 -04:00 [INF] Hosting environment: Development
+2023-06-22 08:59:29.704 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 08:59:31.249 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 08:59:31.964 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 719.0182ms
+2023-06-22 08:59:31.969 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 08:59:31.979 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 9.6699ms
+2023-06-22 08:59:32.047 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 08:59:32.125 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.6022ms
+2023-06-22 08:59:32.289 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 08:59:32.557 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.4021ms
+2023-06-22 08:59:50.217 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 08:59:51.639 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 08:59:51.658 -04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-22 08:59:51.661 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 401 0 - 1443.2313ms
+2023-06-22 09:00:07.970 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-22 09:00:07.993 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:00:08.153 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:00:08.170 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:00:08.173 -04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2023-06-22 09:00:08.184 -04:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2023-06-22 09:00:08.189 -04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-22 09:00:08.201 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 33.6513ms
+2023-06-22 09:00:08.208 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:00:08.211 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User - - - 401 0 - 240.5380ms
+2023-06-22 09:00:20.869 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7019/api/User application/json 69
+2023-06-22 09:00:20.878 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Post (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:00:20.885 -04:00 [INF] Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Bibiliotheque.Core.Net.Models.UserModel]] Post(Api.Bibiliotheque.Core.Net.Models.UserModel) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:00:20.895 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:00:20.896 -04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2023-06-22 09:00:20.900 -04:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2023-06-22 09:00:20.903 -04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-22 09:00:20.905 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Post (Api.Bibiliotheque.Core.Net) in 10.8224ms
+2023-06-22 09:00:20.908 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Post (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:00:20.910 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7019/api/User application/json 69 - 401 0 - 41.2530ms
+2023-06-22 09:00:44.595 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:00:44.621 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:00:44.623 -04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-22 09:00:44.624 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 401 0 - 29.8327ms
+2023-06-22 09:00:46.283 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:00:46.286 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:00:46.289 -04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-22 09:00:46.291 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 401 0 - 8.4537ms
+2023-06-22 09:01:27.700 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 09:01:27.764 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 09:01:27.769 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 09:01:27.775 -04:00 [INF] Hosting environment: Development
+2023-06-22 09:01:27.792 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 09:01:28.645 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 09:01:29.089 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:01:29.106 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 467.9582ms
+2023-06-22 09:01:29.117 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 28.2675ms
+2023-06-22 09:01:29.149 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 09:01:29.242 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.0069ms
+2023-06-22 09:01:29.375 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 09:01:29.598 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.6385ms
+2023-06-22 09:01:32.936 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:01:32.952 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:01:32.963 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:01:33.151 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 500 - text/plain;+charset=utf-8 215.0419ms
+2023-06-22 09:01:53.946 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/18498 - -
+2023-06-22 09:01:53.955 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:01:53.966 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:01:53.972 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/18498 - - - 500 - text/plain;+charset=utf-8 26.1011ms
+2023-06-22 09:02:30.808 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 09:02:30.864 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 09:02:30.869 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 09:02:30.871 -04:00 [INF] Hosting environment: Development
+2023-06-22 09:02:30.872 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 09:02:31.430 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 09:02:31.893 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:02:31.907 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 483.7946ms
+2023-06-22 09:02:31.943 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 50.0631ms
+2023-06-22 09:02:31.955 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 09:02:32.071 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 116.1526ms
+2023-06-22 09:02:32.201 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 09:02:32.471 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.7572ms
+2023-06-22 09:02:35.635 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:02:35.653 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:02:35.664 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:02:35.707 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 500 - text/plain;+charset=utf-8 71.2010ms
+2023-06-22 09:02:48.020 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User/15 - -
+2023-06-22 09:02:48.032 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:02:48.078 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Bibiliotheque.Core.Net.Models.UserModel]] Get(Int32) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:02:48.086 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:02:48.089 -04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2023-06-22 09:02:48.096 -04:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2023-06-22 09:02:48.115 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 26.7677ms
+2023-06-22 09:02:48.127 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:02:48.130 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeAlwaysRunResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:02:48.147 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User/15 - - - 500 - text/plain;+charset=utf-8 126.6981ms
+2023-06-22 09:04:41.216 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 09:04:41.272 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 09:04:41.276 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 09:04:41.278 -04:00 [INF] Hosting environment: Development
+2023-06-22 09:04:41.279 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 09:04:42.146 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 09:04:44.425 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:04:44.439 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 2296.6474ms
+2023-06-22 09:04:44.450 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 24.9821ms
+2023-06-22 09:04:44.483 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 09:04:44.592 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.1301ms
+2023-06-22 09:04:44.713 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 09:04:44.970 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.9488ms
+2023-06-22 09:04:49.718 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:04:49.733 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:04:49.742 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:04:49.803 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 500 - text/plain;+charset=utf-8 85.4128ms
+2023-06-22 09:05:00.018 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User - -
+2023-06-22 09:05:00.033 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:05:00.087 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:05:00.486 -04:00 [WRN] Début d'une logn attente !
+2023-06-22 09:05:00.487 -04:00 [WRN] Je passe pour le 0 is not cancellation.
+2023-06-22 09:05:10.491 -04:00 [WRN] Je passe pour le 1 is not cancellation.
+2023-06-22 09:05:20.496 -04:00 [WRN] Je passe pour le 2 is not cancellation.
+2023-06-22 09:05:30.499 -04:00 [WRN] Je passe pour le 3 is not cancellation.
+2023-06-22 09:05:46.494 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 09:05:46.561 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 09:05:46.566 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 09:05:46.568 -04:00 [INF] Hosting environment: Development
+2023-06-22 09:05:46.569 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 09:05:47.241 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 09:05:47.707 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:05:47.718 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 482.9995ms
+2023-06-22 09:05:47.723 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 15.6081ms
+2023-06-22 09:05:47.781 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 09:05:47.879 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 97.9500ms
+2023-06-22 09:05:48.018 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 09:05:48.282 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 263.7713ms
+2023-06-22 09:05:53.981 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/User/86 - -
+2023-06-22 09:05:54.000 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:05:54.040 -04:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Bibiliotheque.Core.Net.Models.UserModel]] Get(Int32) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:05:54.883 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-22 09:05:55.381 -04:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2023-06-22 09:05:55.389 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 1340.3221ms
+2023-06-22 09:05:55.399 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:05:55.412 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/User/86 - - - 204 0 - 1431.5859ms
+2023-06-22 09:06:24.518 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/145647 - -
+2023-06-22 09:06:24.535 -04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-22 09:06:24.545 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-22 09:06:24.585 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/145647 - - - 500 - text/plain;+charset=utf-8 66.3881ms
+2023-06-22 09:06:47.883 -04:00 [INF] Now listening on: https://localhost:7019
+2023-06-22 09:06:47.964 -04:00 [INF] Now listening on: http://localhost:5019
+2023-06-22 09:06:47.971 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 09:06:47.977 -04:00 [INF] Hosting environment: Development
+2023-06-22 09:06:47.978 -04:00 [INF] Content root path: C:\Users\Aziz\Downloads\Api.Bibiliotheque.Core.Net\Api.Bibiliotheque.Core.Net\
+2023-06-22 09:06:48.958 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2023-06-22 09:06:49.457 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2023-06-22 09:06:49.462 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 512.3138ms
+2023-06-22 09:06:49.485 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12021 application/javascript;+charset=utf-8 27.6984ms
+2023-06-22 09:06:49.513 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2023-06-22 09:06:49.653 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.1810ms
+2023-06-22 09:06:49.869 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2023-06-22 09:06:50.117 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 248.4715ms
+2023-06-22 09:06:52.722 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:06:52.734 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:06:52.764 -04:00 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.BookModel]]] Get() on controller Api.Bibiliotheque.Core.Net.Controllers.BookController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:06:58.286 -04:00 [INF] Début de logger !
+2023-06-22 09:07:01.224 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-22 09:07:04.302 -04:00 [ERR] Log error -fin de logger- !
+2023-06-22 09:07:28.331 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.BookModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-22 09:07:28.360 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net) in 35580.6127ms
+2023-06-22 09:07:28.367 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:07:28.377 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 200 - application/json;+charset=utf-8 35655.6243ms
+2023-06-22 09:08:27.668 -04:00 [INF] Request starting HTTP/2 POST https://localhost:7019/api/maroute/Book application/json 82
+2023-06-22 09:08:27.676 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Post (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:08:27.696 -04:00 [INF] Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Api.Bibiliotheque.Core.Net.Models.BookModel]] Post(Api.Bibiliotheque.Core.Net.Models.BookModel) on controller Api.Bibiliotheque.Core.Net.Controllers.BookController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:08:27.771 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-22 09:08:27.920 -04:00 [INF] Saved 1 entities to in-memory store.
+2023-06-22 09:08:27.943 -04:00 [INF] Executing CreatedAtActionResult, writing value of type 'Api.Bibiliotheque.Core.Net.Models.BookModel'.
+2023-06-22 09:08:27.986 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.BookController.Post (Api.Bibiliotheque.Core.Net) in 286.068ms
+2023-06-22 09:08:27.993 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Post (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:08:27.995 -04:00 [INF] Request finished HTTP/2 POST https://localhost:7019/api/maroute/Book application/json 82 - 201 - application/json;+charset=utf-8 326.6000ms
+2023-06-22 09:08:33.065 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - -
+2023-06-22 09:08:33.067 -04:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:08:33.069 -04:00 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.BookModel]]] Get() on controller Api.Bibiliotheque.Core.Net.Controllers.BookController (Api.Bibiliotheque.Core.Net).
+2023-06-22 09:08:34.611 -04:00 [INF] Début de logger !
+2023-06-22 09:08:34.652 -04:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2023-06-22 09:08:34.665 -04:00 [ERR] Log error -fin de logger- !
+2023-06-22 09:08:34.667 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.BookModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-22 09:08:34.669 -04:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net) in 1597.0236ms
+2023-06-22 09:08:34.672 -04:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.BookController.Get (Api.Bibiliotheque.Core.Net)'
+2023-06-22 09:08:34.674 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7019/api/maroute/Book/monget/mongetget - - - 200 - application/json;+charset=utf-8 1609.0345ms
