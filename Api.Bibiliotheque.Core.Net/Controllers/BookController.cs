@@ -39,7 +39,8 @@ namespace Api.Bibiliotheque.Core.Net.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        [HttpGet("monget/mongetget")]        
+        [HttpGet("monget/mongetget")]
+        [Authorize]
         public async Task<ActionResult<List<Models.BookModel>>> Get()
         {
             _logger.LogInformation("Début de logger !");
